@@ -106,7 +106,3 @@ Deploy to Vercel for best Next.js compatibility:
 - Restart dev server after changing fonts or globals.css if changes don't appear (Ctrl+C then npm run dev).
 - Inspect browser console/network if fonts or PDF requests fail (CSP or blocked requests).
 
-If you want, I can:
-- Add deploy config for Vercel
-- Convert the resume viewer to PDF.js
-- Replace the logo with a scalable inline SVG
