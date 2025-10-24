@@ -1,33 +1,12 @@
-import Link from "next/link";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black">
-      <nav className="flex justify-center text-sm mx-auto py-5 md:px-16 px-3 border-b border-zinc-800 z-30 md:mb-40 mb-10">
-        <div className="flex items-center max-w-[60%] mx-auto">
-          <Link href="/">
-            <img src="/logo.png" alt="logo" className="h-7 w-7" />
-          </Link>
-        </div>
-        <div className="flex flex-col lg:flex-row items-center justify-between max-w-[60%] mx-auto">
-          <ul className="flex gap-2 lg:flex-row lg:items-center lg:gap-6">
-            {["About", "Contact", "Skills", "Projects"].map((item) => (
-              <li key={item}>
-                <Link
-                  href={`/${item.toLowerCase()}`}
-                  className="relative inline-block font-bold hover-underline px-1 py-1 text-slate-100"
-                >
-                  {item}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </nav>
-
+    <div className="min-h-screen bg-zinc-900">
+      <Navbar />
       <div className="flex flex-col max-w-[80%] md:max-w-[60%] mx-auto sm:w-full">
         <div className="flex flex-col xl:flex-row-reverse xl:justify-between xl:items-start text-3xl">
-          <div className="flex justify-center items-center flex-shrink-0">
+          <div className="flex justify-center items-center shrink-0">
             <svg
               viewBox="0 0 1273 906"
               fill="none"
