@@ -63,7 +63,7 @@ export default function Contact() {
 
           {/* image (right on large screens) */}
           <aside className="lg:w-1/2 w-full flex justify-center lg:justify-end animate-fadeInUp">
-            <div className="w-56 h-56 sm:w-72 sm:h-72 rounded-lg overflow-hidden shadow-lg">
+            <div className="w-40 h-40 sm:w-72 sm:h-72 rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="/krishna.jpg"
                 alt="Krishna Digarse"
