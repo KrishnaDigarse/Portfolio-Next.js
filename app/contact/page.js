@@ -1,5 +1,4 @@
 import Navbar from "../components/Navbar";
-import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -60,20 +59,6 @@ export default function Contact() {
               </div>
             </div>
           </section>
-
-          {/* image (right on large screens) */}
-          <aside className="lg:w-1/2 w-full flex justify-center lg:justify-end animate-fadeInUp">
-            <div className="w-40 h-40 sm:w-72 sm:h-72 rounded-lg overflow-hidden shadow-lg">
-              <Image
-                src="/krishna.jpg"
-                alt="Krishna Digarse"
-                width={288}
-                height={288}
-                className="object-cover w-full h-full"
-                priority
-              />
-            </div>
-          </aside>
         </div>
       </main>
     </div>
